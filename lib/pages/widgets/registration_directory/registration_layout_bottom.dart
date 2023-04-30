@@ -34,7 +34,7 @@ class RegistrationButton extends StatelessWidget {
           ),
           minimumSize: MaterialStateProperty.all(Size(double.infinity, 56))
         ),
-        onPressed: () {},
+        onPressed: () {print(12);},
         child: Text("Зарегистрироваться", style: TextStyle(color: Colors.white),)
     );
   }
